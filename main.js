@@ -21,10 +21,10 @@ function isItShort(string){
 function howLongIsMyString(string){
   if (string.length > 20){
     return "That's a long string!"
-  }
+  }else
   if (string.length >= 10 && string.length <= 20){
     return "That's a regular sized string!"
-  }
+  }else
   if (string.length < 10){
     return "That's a small string!"
   }
@@ -32,7 +32,7 @@ function howLongIsMyString(string){
 function instructorHeight(name){
   if (name == 'Colin'){
     return 62
-  }
+  }else
   if (name === 'Mesuara'){
     return 67
   }else{
